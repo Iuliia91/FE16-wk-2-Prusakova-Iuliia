@@ -1,0 +1,29 @@
+.work_pict {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 0;
+}
+
+.work_block_text {
+  position: absolute;
+}
+
+.work_pict_item {
+  width: 100%;
+  height: 100%;
+}
+
+.blec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.work_block_text_text {
+  text-align: center;
+}

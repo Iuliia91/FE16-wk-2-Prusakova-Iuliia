@@ -1,0 +1,51 @@
+.team_main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 100%;
+  padding-top: 70px;
+}
+.team_conten_block {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: 1fr;
+  width: 30%;
+}
+
+.team_conten_block_photo_titel_name {
+  font-family: $font-relaway-bold;
+  font-size: 22px;
+  text-transform: capitalize;
+
+  &_work {
+    font-size: 13px;
+    font-family: $font-relaway-bold;
+    text-transform: uppercase;
+    color: red;
+
+    &_text_text {
+      font-size: 14px;
+      font-family: $font-relaway-bold;
+    }
+  }
+}
+
+.team_conten_block_icon_three {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 65%;
+  padding: 0;
+
+  &_item {
+    outline: 1px solid black;
+    padding: 8px;
+    margin: auto;
+
+    &_pick {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

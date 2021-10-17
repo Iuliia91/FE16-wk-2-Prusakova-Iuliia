@@ -1,0 +1,66 @@
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+.masthead_heade_labe {
+  color: #66697e;
+  margin: 0;
+
+  &_pis {
+    color: white;
+  }
+}
+
+.masthead_header_navigation {
+  color: #a2a4b0;
+  margin: 0;
+}
+
+.masthead_header::after {
+  content: '';
+  max-width: 100%;
+  border-bottom: 1px solid gray;
+  display: block;
+}
+
+.masthead_main {
+  padding-top: 206px;
+}
+
+.masthead_main_text_titel {
+  font-size: 60px;
+  font-family: $font-opensan-bold;
+  font-weight: bold;
+  color: white;
+
+  &_subtitel {
+    font-family: $font-relaway-bold;
+    color: #c8c9d0;
+    font-size: 22px;
+  }
+}
+.masthead_main_button {
+  padding: 20px 0 50px;
+}
+.masthead_main_button {
+  list-style-type: none;
+  text-decoration: none;
+  margin: auto;
+}
+
+.masthead {
+  background-image: url('../img/Layer\ 34.jpg');
+  background-size: cover;
+}
+
+.masthead_main_button_text {
+  background-color: red;
+  padding: 7px 10px;
+  margin: auto;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: $font-relaway-bold;
+}

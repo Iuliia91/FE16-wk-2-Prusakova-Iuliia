@@ -1,0 +1,356 @@
+.feature_block_titel,
+.feature_block_subtitel {
+  font-family: "Opensans";
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+.masthead_heade_labe {
+  color: #66697e;
+  margin: 0;
+}
+.masthead_heade_labe_pis {
+  color: white;
+}
+
+.masthead_header_navigation {
+  color: #a2a4b0;
+  margin: 0;
+}
+
+.masthead_header::after {
+  content: "";
+  max-width: 100%;
+  border-bottom: 1px solid gray;
+  display: block;
+}
+
+.masthead_main {
+  padding-top: 206px;
+}
+
+.masthead_main_text_titel {
+  font-size: 60px;
+  font-family: "Opensans";
+  font-weight: bold;
+  color: white;
+}
+.masthead_main_text_titel_subtitel {
+  font-family: "relaway";
+  color: #c8c9d0;
+  font-size: 22px;
+}
+
+.masthead_main_button {
+  padding: 20px 0 50px;
+}
+
+.masthead_main_button {
+  list-style-type: none;
+  text-decoration: none;
+  margin: auto;
+}
+
+.masthead {
+  background-image: url("../img/Layer 34.jpg");
+  background-size: cover;
+}
+
+.masthead_main_button_text {
+  background-color: red;
+  padding: 7px 10px;
+  margin: auto;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: "relaway";
+}
+
+.feature_all {
+  margin: 100px 0px;
+}
+
+.feature_tips {
+  padding-bottom: 60px;
+}
+
+.work_pict {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 0;
+}
+
+.work_block_text {
+  position: absolute;
+}
+
+.work_pict_item {
+  width: 100%;
+  height: 100%;
+}
+
+.blec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.work_block_text_text {
+  text-align: center;
+}
+
+.team_main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 100%;
+  padding-top: 70px;
+}
+
+.team_conten_block {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: 1fr;
+  width: 30%;
+}
+
+.team_conten_block_photo_titel_name {
+  font-family: "relaway";
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.team_conten_block_photo_titel_name_work {
+  font-size: 13px;
+  font-family: "relaway";
+  text-transform: uppercase;
+  color: red;
+}
+.team_conten_block_photo_titel_name_work_text_text {
+  font-size: 14px;
+  font-family: "relaway";
+}
+
+.team_conten_block_icon_three {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 65%;
+  padding: 0;
+}
+.team_conten_block_icon_three_item {
+  outline: 1px solid black;
+  padding: 8px;
+  margin: auto;
+}
+.team_conten_block_icon_three_item_pick {
+  width: 20px;
+  height: 20px;
+}
+
+.download_block {
+  margin: 90px 0 80px;
+}
+.download_block_first {
+  font-size: 28px;
+  font-family: "relaway";
+  text-transform: capitalize;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.download_block_second {
+  font-size: 13px;
+  font-family: "relaway";
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+
+.download_button {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "relaway";
+  text-transform: uppercase;
+  color: white;
+  background-color: #e84545;
+  padding: 13px 65px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.download_block_subtitel {
+  text-align: center;
+}
+
+.footer {
+  background-color: #3a3e64;
+}
+
+.footer_main {
+  padding: 50px 0 55px;
+}
+
+.footer_main_block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer_main_location {
+  text-align: center;
+}
+.footer_main_location_subtitel {
+  text-align: center;
+  margin: 0px 70px;
+  color: #918783;
+}
+.footer_main_location .footer_main_location_titel {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "relaway";
+  font-weight: bold;
+  color: white;
+}
+
+.footer_main_about {
+  text-align: center;
+}
+
+.footer_main_share {
+  text-align: center;
+}
+.footer_main_share .footer_main_share_text {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "relaway";
+  font-weight: bold;
+  color: white;
+}
+.footer_main_share_icon {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+.footer_main_share_icon_list {
+  outline: 1px solid white;
+  padding: 8px;
+  margin: auto;
+  margin: 5px;
+}
+.footer_main_share_icon_list_pic {
+  width: 20px;
+  height: 20px;
+}
+
+.footer_main_about_begin {
+  font-family: "relaway";
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+.footer_main_about_last {
+  padding: 0 15px;
+  color: #918783;
+  font-family: "relaway";
+}
+
+.footer_footer {
+  background-color: #313454;
+}
+.footer_footer_text {
+  text-align: center;
+  padding: 20px 0;
+  color: #7b7b7d;
+  margin: 0px;
+}
+
+.footer_footer_text_titel {
+  margin: 5px;
+}
+
+.footer_footer_text_white {
+  color: white;
+}
+
+.client_block {
+  /*display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;*/
+}
+.client_block_right {
+  background-color: #e4dada;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.client_girl_block {
+  width: 100%;
+}
+
+.client_block_slide_block {
+  position: relative;
+  padding-top: 50px;
+}
+
+.client_block_slide_block .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  font-size: 0;
+}
+
+.client_block_slide_block .slick-arrow.slick-prev {
+  left: 0;
+  background-image: url(/img/chevron-left-solid.svg);
+}
+
+.client_block_slide_block .slick-arrow.slick-next {
+  right: 0;
+}
+
+.client_block_slide_block .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client_block_slide_block .slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.client_block_slide_block .slick-dots li button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.client_block_slide_block .slick-dots li.slick-active button {
+  background-color: red;
+  opacity: inherit;
+}

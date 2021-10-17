@@ -1,0 +1,16 @@
+$font-opensan-bold: 'Opensans';
+
+$font-relaway-bold: 'relaway';
+
+.feature_block_titel,
+.feature_block_subtitel {
+  font-family: $font-opensan-bold;
+}
+
+@import 'masthead';
+@import 'feature';
+@import 'work';
+@import 'team';
+@import 'download';
+@import 'footer';
+@import 'client';

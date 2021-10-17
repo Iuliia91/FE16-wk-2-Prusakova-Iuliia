@@ -1,0 +1,67 @@
+.client_block {
+  /*display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;*/
+
+  &_right {
+    background-color: rgb(228, 218, 218);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+.client_girl_block {
+  width: 100%;
+}
+
+.client_block_slide_block {
+  position: relative;
+  padding-top: 50px;
+}
+
+.client_block_slide_block .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  font-size: 0;
+}
+
+.client_block_slide_block .slick-arrow.slick-prev {
+  left: 0;
+  background-image: url(/img/chevron-left-solid.svg);
+}
+
+.client_block_slide_block .slick-arrow.slick-next {
+  right: 0;
+}
+
+.client_block_slide_block .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client_block_slide_block .slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.client_block_slide_block .slick-dots li button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.client_block_slide_block .slick-dots li.slick-active button {
+  background-color: red;
+  opacity: inherit;
+}

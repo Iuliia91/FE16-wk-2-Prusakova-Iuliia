@@ -1,0 +1,99 @@
+.footer {
+  background-color: #3a3e64;
+}
+
+.footer_main {
+  padding: 50px 0 55px;
+}
+
+.footer_main_block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer_main_location {
+  text-align: center;
+
+  &_subtitel {
+    text-align: center;
+    margin: 0px 70px;
+    color: #918783;
+  }
+  .footer_main_location_titel {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: $font-relaway-bold;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+.footer_main_about {
+  text-align: center;
+}
+
+.footer_main_share {
+  text-align: center;
+  .footer_main_share_text {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: $font-relaway-bold;
+    font-weight: bold;
+    color: white;
+  }
+  &_icon {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+
+    &_list {
+      outline: 1px solid white;
+      padding: 8px;
+      margin: auto;
+      margin: 5px;
+
+      &_pic {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+.footer_main_about {
+  &_begin {
+    font-family: $font-relaway-bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+  }
+
+  &_last {
+    padding: 0 15px;
+    color: #918783;
+    font-family: $font-relaway-bold;
+  }
+}
+
+.footer_footer {
+  background-color: #313454;
+
+  &_text {
+    text-align: center;
+    padding: 20px 0;
+    color: #7b7b7d;
+    margin: 0px;
+  }
+}
+
+.footer_footer_text_titel {
+  margin: 5px;
+}
+.footer_footer_text_white {
+  color: white;
+}
