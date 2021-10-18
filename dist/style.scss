@@ -10,7 +10,7 @@ $font-relaway-bold: 'relaway';
 @import 'masthead';
 @import 'feature';
 @import 'work';
-@import 'team';
+@import '../dist/team.scss';
 @import 'download';
 @import 'footer';
 @import 'client';
