@@ -1,19 +1,9 @@
-.client_block {
-  /*display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.client_block_right {
+  background-color: rgb(228, 218, 218);
   margin: 0;
+  padding: 0;
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;*/
-
-  &_right {
-    background-color: rgb(228, 218, 218);
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-width: 0;
-  }
+  min-width: 0;
 }
 
 .client_girl_block {

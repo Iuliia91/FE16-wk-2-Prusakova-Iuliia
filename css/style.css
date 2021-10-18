@@ -1,6 +1,6 @@
 .feature_block_titel,
 .feature_block_subtitel {
-  font-family: "Opensans";
+  font-family: 'Opensans';
 }
 
 .navbar-brand {
@@ -21,7 +21,7 @@
 }
 
 .masthead_header::after {
-  content: "";
+  content: '';
   max-width: 100%;
   border-bottom: 1px solid gray;
   display: block;
@@ -33,12 +33,12 @@
 
 .masthead_main_text_titel {
   font-size: 60px;
-  font-family: "Opensans";
+  font-family: 'Opensans';
   font-weight: bold;
   color: white;
 }
 .masthead_main_text_titel_subtitel {
-  font-family: "relaway";
+  font-family: 'relaway';
   color: #c8c9d0;
   font-size: 22px;
 }
@@ -54,7 +54,7 @@
 }
 
 .masthead {
-  background-image: url("../img/Layer 34.jpg");
+  background-image: url('../img/Layer 34.jpg');
   background-size: cover;
 }
 
@@ -67,7 +67,7 @@
   text-decoration: none;
   font-size: 13px;
   text-transform: uppercase;
-  font-family: "relaway";
+  font-family: 'relaway';
 }
 
 .feature_all {
@@ -123,19 +123,19 @@
 }
 
 .team_conten_block_photo_titel_name {
-  font-family: "relaway";
+  font-family: 'relaway';
   font-size: 22px;
   text-transform: capitalize;
 }
 .team_conten_block_photo_titel_name_work {
   font-size: 13px;
-  font-family: "relaway";
+  font-family: 'relaway';
   text-transform: uppercase;
   color: red;
 }
 .team_conten_block_photo_titel_name_work_text_text {
   font-size: 14px;
-  font-family: "relaway";
+  font-family: 'relaway';
 }
 
 .team_conten_block_icon_three {
@@ -162,7 +162,7 @@
 }
 .download_block_first {
   font-size: 28px;
-  font-family: "relaway";
+  font-family: 'relaway';
   text-transform: capitalize;
   margin: 0 auto;
   text-align: center;
@@ -171,7 +171,7 @@
 
 .download_block_second {
   font-size: 13px;
-  font-family: "relaway";
+  font-family: 'relaway';
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -181,7 +181,7 @@
 .download_button {
   text-decoration: none;
   font-size: 13px;
-  font-family: "relaway";
+  font-family: 'relaway';
   text-transform: uppercase;
   color: white;
   background-color: #e84545;
@@ -218,7 +218,7 @@
 .footer_main_location .footer_main_location_titel {
   font-size: 14px;
   text-transform: uppercase;
-  font-family: "relaway";
+  font-family: 'relaway';
   font-weight: bold;
   color: white;
 }
@@ -233,7 +233,7 @@
 .footer_main_share .footer_main_share_text {
   font-size: 14px;
   text-transform: uppercase;
-  font-family: "relaway";
+  font-family: 'relaway';
   font-weight: bold;
   color: white;
 }
@@ -258,7 +258,7 @@
 }
 
 .footer_main_about_begin {
-  font-family: "relaway";
+  font-family: 'relaway';
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
@@ -267,7 +267,7 @@
 .footer_main_about_last {
   padding: 0 15px;
   color: #918783;
-  font-family: "relaway";
+  font-family: 'relaway';
 }
 
 .footer_footer {
@@ -288,15 +288,6 @@
   color: white;
 }
 
-.client_block {
-  /*display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;*/
-}
 .client_block_right {
   background-color: #e4dada;
   margin: 0;
