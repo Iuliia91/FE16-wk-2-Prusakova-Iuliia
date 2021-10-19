@@ -2,6 +2,8 @@ $font-opensan-bold: 'Opensans';
 
 $font-relaway-bold: 'relaway';
 
+$font-cardo: 'cardo' serif;
+
 .feature_block_titel,
 .feature_block_subtitel {
   font-family: $font-opensan-bold;
@@ -14,7 +16,4 @@ $font-relaway-bold: 'relaway';
 @import 'download';
 @import 'footer';
 @import 'client';
-
-.client_block_right {
-  background-color: red;
-}
+@import 'media';

@@ -1,6 +1,6 @@
 .feature_block_titel,
 .feature_block_subtitel {
-  font-family: 'Opensans';
+  font-family: "Opensans";
 }
 
 .navbar-brand {
@@ -21,24 +21,24 @@
 }
 
 .masthead_header::after {
-  content: '';
+  content: "";
   max-width: 100%;
   border-bottom: 1px solid gray;
   display: block;
 }
 
 .masthead_main {
-  padding-top: 206px;
+  padding-top: 10px;
 }
 
 .masthead_main_text_titel {
   font-size: 60px;
-  font-family: 'Opensans';
+  font-family: "Opensans";
   font-weight: bold;
   color: white;
 }
 .masthead_main_text_titel_subtitel {
-  font-family: 'relaway';
+  font-family: "relaway";
   color: #c8c9d0;
   font-size: 22px;
 }
@@ -54,7 +54,7 @@
 }
 
 .masthead {
-  background-image: url('../img/Layer 34.jpg');
+  background-image: url("../img/Layer 34.jpg");
   background-size: cover;
 }
 
@@ -67,7 +67,7 @@
   text-decoration: none;
   font-size: 13px;
   text-transform: uppercase;
-  font-family: 'relaway';
+  font-family: "relaway";
 }
 
 .feature_all {
@@ -112,7 +112,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   max-width: 100%;
-  padding-top: 70px;
+  padding: 50px 0;
 }
 
 .team_conten_block {
@@ -123,19 +123,19 @@
 }
 
 .team_conten_block_photo_titel_name {
-  font-family: 'relaway';
+  font-family: "relaway";
   font-size: 22px;
   text-transform: capitalize;
 }
 .team_conten_block_photo_titel_name_work {
   font-size: 13px;
-  font-family: 'relaway';
+  font-family: "relaway";
   text-transform: uppercase;
   color: red;
 }
 .team_conten_block_photo_titel_name_work_text_text {
   font-size: 14px;
-  font-family: 'relaway';
+  font-family: "relaway";
 }
 
 .team_conten_block_icon_three {
@@ -162,7 +162,7 @@
 }
 .download_block_first {
   font-size: 28px;
-  font-family: 'relaway';
+  font-family: "relaway";
   text-transform: capitalize;
   margin: 0 auto;
   text-align: center;
@@ -171,7 +171,7 @@
 
 .download_block_second {
   font-size: 13px;
-  font-family: 'relaway';
+  font-family: "relaway";
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -181,7 +181,7 @@
 .download_button {
   text-decoration: none;
   font-size: 13px;
-  font-family: 'relaway';
+  font-family: "relaway";
   text-transform: uppercase;
   color: white;
   background-color: #e84545;
@@ -218,7 +218,7 @@
 .footer_main_location .footer_main_location_titel {
   font-size: 14px;
   text-transform: uppercase;
-  font-family: 'relaway';
+  font-family: "relaway";
   font-weight: bold;
   color: white;
 }
@@ -233,7 +233,7 @@
 .footer_main_share .footer_main_share_text {
   font-size: 14px;
   text-transform: uppercase;
-  font-family: 'relaway';
+  font-family: "relaway";
   font-weight: bold;
   color: white;
 }
@@ -258,7 +258,7 @@
 }
 
 .footer_main_about_begin {
-  font-family: 'relaway';
+  font-family: "relaway";
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
@@ -267,7 +267,7 @@
 .footer_main_about_last {
   padding: 0 15px;
   color: #918783;
-  font-family: 'relaway';
+  font-family: "relaway";
 }
 
 .footer_footer {
@@ -288,8 +288,14 @@
   color: white;
 }
 
+.client_block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .client_block_right {
-  background-color: #e4dada;
+  background-color: #53354a;
+  background-size: contain;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -300,31 +306,36 @@
   width: 100%;
 }
 
+.client_block_slide_block_titel {
+  font-family: "cardo" serif;
+  font-style: italic;
+  font-size: 26px;
+  color: white;
+  margin-left: 8%;
+}
+.client_block_slide_block_titel_subtitel {
+  font-family: "relaway";
+  font-style: bold;
+  font-size: 13px;
+  color: white;
+  margin: 0 28% 4% 10%;
+}
+
 .client_block_slide_block {
   position: relative;
-  padding-top: 50px;
+  padding-top: 7%;
 }
 
 .client_block_slide_block .slick-arrow {
   position: absolute;
-  top: 50%;
-  z-index: 10;
+  display: none;
   font-size: 0;
-}
-
-.client_block_slide_block .slick-arrow.slick-prev {
-  left: 0;
-  background-image: url(/img/chevron-left-solid.svg);
-}
-
-.client_block_slide_block .slick-arrow.slick-next {
-  right: 0;
+  opacity: 0;
 }
 
 .client_block_slide_block .slick-dots {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-left: 25%;
 }
 
 .client_block_slide_block .slick-dots li {
@@ -344,4 +355,67 @@
 .client_block_slide_block .slick-dots li.slick-active button {
   background-color: red;
   opacity: inherit;
+}
+
+@media (max-width: 768px) {
+  .client_block {
+    display: block;
+    position: relative;
+  }
+
+  .client_girl_block {
+    vertical-align: top;
+    opacity: 0.4;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: black;
+  }
+
+  .client_block_right {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(83, 53, 74, 0.3);
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+  }
+
+  .client_block_slide_block {
+    max-width: 1170px;
+    margin: auto;
+    padding-top: 14%;
+  }
+
+  .client_block_slide_block_titel {
+    color: black;
+    font-size: 24px;
+    padding-right: 2%;
+  }
+  .client_block_slide_block_titel_subtitel {
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 4%;
+  }
+
+  .client_block_slide_block .slick-dots {
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  .client_block_slide_block {
+    padding-top: 7%;
+  }
+
+  .client_block_slide_block_titel {
+    font-size: 16px;
+  }
+
+  .client_block_slide_block_titel_subtitel {
+    padding-bottom: 2%;
+  }
 }

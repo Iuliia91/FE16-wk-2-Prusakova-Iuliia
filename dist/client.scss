@@ -1,5 +1,11 @@
+.client_block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .client_block_right {
-  background-color: rgb(228, 218, 218);
+  background-color: #53354a;
+  background-size: contain;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -10,31 +16,37 @@
   width: 100%;
 }
 
+.client_block_slide_block_titel {
+  font-family: $font-cardo;
+  font-style: italic;
+  font-size: 26px;
+  color: white;
+  margin-left: 8%;
+
+  &_subtitel {
+    font-family: $font-relaway-bold;
+    font-style: bold;
+    font-size: 13px;
+    color: white;
+    margin: 0 28% 4% 10%;
+  }
+}
+
 .client_block_slide_block {
   position: relative;
-  padding-top: 50px;
+  padding-top: 7%;
 }
 
 .client_block_slide_block .slick-arrow {
   position: absolute;
-  top: 50%;
-  z-index: 10;
+  display: none;
   font-size: 0;
-}
-
-.client_block_slide_block .slick-arrow.slick-prev {
-  left: 0;
-  background-image: url(/img/chevron-left-solid.svg);
-}
-
-.client_block_slide_block .slick-arrow.slick-next {
-  right: 0;
+  opacity: 0;
 }
 
 .client_block_slide_block .slick-dots {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-left: 25%;
 }
 
 .client_block_slide_block .slick-dots li {
